@@ -3,8 +3,11 @@
 
 class Cat
   attr_accessor :name
+  def meow(name)
+    puts "#{name}!"
 
+  end
 end
 
 speakCat = Cat.new
-speakCat.name("meow")
+speakCat.meow("meow")
