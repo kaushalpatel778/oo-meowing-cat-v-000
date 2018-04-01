@@ -10,4 +10,4 @@ class Cat
 end
 
 speakCat = Cat.new
-speakCat.meow("bowbow")
+speakCat.meow("meow")
