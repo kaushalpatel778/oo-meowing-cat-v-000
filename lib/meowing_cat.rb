@@ -4,7 +4,7 @@
 class Cat
   attr_accessor :name
   def meow(name)
-    @name
+  puts name
   end
 
 end
